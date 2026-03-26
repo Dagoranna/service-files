@@ -108,6 +108,7 @@
 
 .wdd-dropdown-small {
   border-radius: 0 !important;
+  width: fit-content !important;
 }
 
 .wdd-dropdown__arrow {
@@ -206,9 +207,13 @@
 }
 .wdd-group__dropdown {
   display: flex;
-  flex-wrap: wrap;
   border-radius: 6px;
 }
+
+.wdd-group__dropdown-small {
+  flex-direction: column !important;
+}
+
 .wdd-group__dropdown .wdd-dropdown__item,
 .wdd-group__dropdown .wdd-dropdown__slider {
   border-radius: 0;
