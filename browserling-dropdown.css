@@ -24,7 +24,7 @@
 }
 
 .wdd-wrapper-small {
-  width: 95vw;
+  width: 95vw !important;
 }
 
 /*input*/
@@ -42,7 +42,7 @@
 }
 
 .wdd-input-small {
-  padding: 6px 6px 6px 28px;
+  padding: 6px 6px 6px 28px !important;
 }
 
 .wdd-input:focus {
@@ -76,8 +76,8 @@
 }
 
 .wdd-button-small {
-  width: 50px;
-  background-size: 50%;
+  width: 50px !important;
+  background-size: 50% !important;
 }
 
 .wdd-button:hover {
