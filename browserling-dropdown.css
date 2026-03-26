@@ -43,6 +43,7 @@
 
 .wdd-input-small {
   padding: 6px 6px 6px 28px !important;
+  background-position: 8px 50% !important;
 }
 
 .wdd-input:focus {
