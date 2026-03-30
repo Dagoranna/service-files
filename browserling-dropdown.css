@@ -237,7 +237,7 @@
 
 @media (max-width: 560px) {
   .wdd-wrapper {
-    width: 95vw;
+    width: 95vw !important;
   }
 
   .wdd-group__dropdown {
@@ -246,16 +246,16 @@
 
   .wdd-dropdown {
     border-radius: 0 !important;
-    width: fit-content;
+    width: fit-content !important;
   }
 
   .wdd-button {
-    width: 50px;
-    background-size: 50%;
+    width: 50px !important;
+    background-size: 50% !important;
   }
 
   .wdd-input {
-    padding: 6px 6px 6px 28px;
-    background-position: 8px 50%;
+    padding: 6px 6px 6px 28px !important;
+    background-position: 8px 50% !important;
   }
 }
